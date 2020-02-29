@@ -1,13 +1,15 @@
 body {
   margin: 0;
   background-color: black;
-  background-image: url(image4.jpg);
+  background-image: url(image1.jpg);
   background-size: 175px;
   background-repeat: no-repeat;
 }
 
 main {
   margin-top: 250px;
+  margin-left: 20px;
+  margin-right: 20px;
   border: 2px solid blue;
 }
 
@@ -22,9 +24,13 @@ figure {
 }
 
 #image {
-  max-width: 300px;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
 }
 
-#img-caption {
+figcaption {
+  text-align: center;
   color: red;
 }
