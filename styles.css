@@ -8,9 +8,23 @@ body {
 
 main {
   margin-top: 250px;
+  border: 2px solid blue;
 }
 
 h1 {
   border: 5px solid yellow;
+  color: red;
+}
+
+figure {
+  margin: 10px 10px;
+  border: 2px dashed pink;
+}
+
+#image {
+  max-width: 300px;
+}
+
+#img-caption {
   color: red;
 }
