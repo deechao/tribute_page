@@ -4,6 +4,7 @@ body {
   background-image: url(image1.jpg);
   background-size: 175px;
   background-repeat: no-repeat;
+  font-family: "Roboto";
 }
 
 main {
