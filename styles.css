@@ -148,7 +148,7 @@ h5 {
 /*===========================================================*/
 
 /*==============================================================*/
-/*==============START OF MEDIA QUERIES / MIN-WIDTH 460PX========*/
+/*=============START OF MEDIA QUERIES / MIN-WIDTH 460PX=========*/
 
 @media screen and (min-width: 460px) {
   #hero {
@@ -167,6 +167,9 @@ h5 {
     max-width: 400px;
   }
 }
+
+/*============END OF MEDIA QUERIES / MIN-WIDTH 460PX============*/
+/*==============================================================*/
 
 /*==============================================================*/
 /*==============START OF MEDIA QUERIES / MIN-WIDTH 720PX========*/
@@ -187,4 +190,57 @@ h5 {
   hr {
     max-width: 600px;
   }
+
+  h1 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 22px;
+  }
 }
+
+/*============END OF MEDIA QUERIES / MIN-WIDTH 720PX============*/
+/*==============================================================*/
+
+/*==============================================================*/
+/*==============START OF MEDIA QUERIES / MIN-WIDTH 1200PX========*/
+
+@media screen and (min-width: 1200px) {
+  #hero {
+    width: 325px;
+    margin-right: 30px;
+    margin-left: 15px;
+  }
+
+  #motto {
+    width: 750px;
+    text-shadow: 3px 3px 3px rgb(138, 138, 4);
+    font-size: 20px;
+    line-height: 45px;
+    background-position: right;
+  }
+
+  hr {
+    max-width: 1100px;
+  }
+
+  h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: 25px;
+  }
+
+  #title {
+    text-shadow: 3px 3px 3px rgb(211, 180, 180);
+  }
+
+  #tribute-info {
+    font-size: 1.5rem;
+  }
+}
+
+/*============END OF MEDIA QUERIES / MIN-WIDTH 1200PX============*/
+/*===============================================================*/
