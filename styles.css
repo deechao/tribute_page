@@ -131,7 +131,7 @@ figcaption {
 }
 
 h5 {
-  max-width: 1280px;
+  max-width: 1200px;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -164,11 +164,27 @@ h5 {
   }
 
   hr {
-    margin-top: 10px;
-    margin-bottom: 5px;
-    margin-left: auto;
-    margin-right: auto;
     max-width: 400px;
-    border: 2px solid rgb(218, 218, 7);
+  }
+}
+
+/*==============================================================*/
+/*==============START OF MEDIA QUERIES / MIN-WIDTH 720PX========*/
+
+@media screen and (min-width: 720px) {
+  #hero {
+    width: 300px;
+  }
+
+  #motto {
+    text-shadow: 3px 3px 3px rgb(56, 56, 1);
+    background-image: url(image6.jpg);
+    background-size: 350px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  hr {
+    max-width: 600px;
   }
 }
