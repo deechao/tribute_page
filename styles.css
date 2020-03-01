@@ -1,10 +1,13 @@
 body {
   margin: 0;
   background-color: black;
-  background-image: url(image1.jpg);
   background-size: 175px;
   background-repeat: no-repeat;
   font-family: "Roboto";
+}
+
+header {
+  border: 2px dashed red;
 }
 
 main {
@@ -15,13 +18,18 @@ main {
 }
 
 h1 {
-  border: 5px solid yellow;
-  color: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 15px;
+  color: whitesmoke;
 }
 
 figure {
   margin: 10px 10px;
-  border: 2px dashed pink;
 }
 
 #image {
@@ -32,6 +40,8 @@ figure {
 }
 
 figcaption {
+  margin-top: 10px;
   text-align: center;
+  text-transform: capitalize;
   color: red;
 }
