@@ -255,8 +255,8 @@ a {
 @media screen and (min-width: 1200px) {
   #headline {
     font-size: 20px;
-    letter-spacing: 18px;
-    word-spacing: 5px;
+    letter-spacing: 20px;
+    word-spacing: 7px;
     margin-top: 15px;
   }
 
