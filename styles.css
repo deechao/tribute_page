@@ -28,13 +28,9 @@ h6 {
 }
 
 header,
-main {
-  max-width: 1280px;
-}
-
-#tribute-info,
+main,
 h6 {
-  max-width: 1200px;
+  max-width: 1280px;
 }
 
 figcaption,
@@ -138,8 +134,9 @@ figcaption {
 /*==========SECTION-TRIBUTE INFO=========*/
 
 #tribute-info {
+  max-width: 1200px;
   margin: 30px auto;
-  padding: 0 15px;
+  padding: 5px 15px;
   font-size: 13px;
   text-indent: 10px;
 }
@@ -150,8 +147,8 @@ figcaption {
 /*==============================================================*
 /*=====================START OF FOOTER==========================*/
 h6 {
-  margin: 20px 0;
-  padding: 10px 5px;
+  margin: 20px auto;
+  padding: 10px 0;
   letter-spacing: 2px;
   background-color: rgba(51, 48, 48, 0.404);
 }
@@ -176,7 +173,6 @@ a {
 
   #motto {
     text-shadow: 3px 3px 3px rgb(56, 56, 1);
-    background-image: url(image6.jpg);
     background-size: 250px;
     font-size: 14px;
     line-height: 25px;
@@ -197,6 +193,11 @@ a {
 
   #tribute-info {
     font-size: 15px;
+  }
+
+  h6 {
+    padding: 10px 5;
+    letter-spacing: 3px;
   }
 }
 
@@ -242,6 +243,7 @@ a {
   }
 
   h6 {
+    padding: 10px 5px;
     font-size: 13px;
     letter-spacing: 5px;
   }
@@ -261,6 +263,7 @@ a {
   #hero {
     width: 270px;
     padding-right: 20px;
+    margin-right: 20px;
   }
 
   #motto {
@@ -274,7 +277,7 @@ a {
   }
 
   hr {
-    max-width: 950px;
+    max-width: 1000px;
   }
 
   h1 {
@@ -291,6 +294,7 @@ a {
   }
 
   h6 {
+    padding: 10px 5px;
     font-size: 15px;
     letter-spacing: 5px;
   }
