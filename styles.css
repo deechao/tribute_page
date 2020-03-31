@@ -1,0 +1,306 @@
+body {
+  margin: 0;
+  background-color: black;
+  font-family: "Roboto";
+}
+
+#headline,
+#motto,
+h1,
+figcaption,
+#tribute-info,
+h6 {
+  color: whitesmoke;
+}
+
+#headline,
+#motto,
+h1,
+h6 {
+  text-transform: uppercase;
+}
+
+#headline,
+h1,
+figcaption,
+h6 {
+  text-align: center;
+}
+
+header,
+main,
+#footer-link {
+  max-width: 1280px;
+}
+
+figcaption,
+#tribute-info {
+  text-transform: capitalize;
+}
+
+/*====================================================*/
+/*=================START OF HEADLINE====================*/
+
+#headline {
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px 5px;
+  font-size: 10px;
+  letter-spacing: 7px;
+  background-color: rgba(51, 48, 48, 0.404);
+}
+
+/*=================================================*/
+/*===============HEADER/LOGO STYLING===============*/
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 5px auto;
+}
+
+#profile {
+  margin: auto 5px;
+}
+
+#hero {
+  width: 140px;
+}
+
+#motto {
+  margin: auto 0;
+  padding-right: 0;
+  text-shadow: 2px 2px 2px rgb(56, 56, 1);
+  background-image: url(image6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 170px;
+  font-size: 9px;
+  line-height: 20px;
+}
+
+#info {
+  list-style-type: none;
+  padding: 0;
+}
+
+/*===========================================================*/
+/*====================START OF HR STYLING====================*/
+
+hr {
+  margin: 10px auto;
+  max-width: 250px;
+  border: 2px solid rgb(218, 218, 7);
+}
+
+/*===================================================*/
+/*===============START OF MAIN STYLING===============*/
+
+main {
+  margin: 20px auto;
+  background-color: rgba(51, 48, 48, 0.404);
+}
+
+h1 {
+  margin: 10px 0;
+  letter-spacing: 18px;
+}
+
+/*=========FIGURE-FIGCAPTION STYLING=========*/
+
+figure {
+  margin: 10px 10px;
+  padding: 10px 0;
+}
+
+#title {
+  padding-top: 15px;
+  text-shadow: 2px 2px 2px rgb(211, 180, 180);
+}
+
+#image {
+  width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+/*==========SECTION-TRIBUTE INFO=========*/
+
+#tribute-info {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 5px 15px;
+  font-size: 13px;
+  text-indent: 10px;
+}
+
+/*====================END OF MAIN STYLING====================*/
+/*===========================================================*/
+
+/*==============================================================*
+/*=====================START OF FOOTER==========================*/
+
+#footer-link {
+  margin: 10px auto;
+  padding: 10px 5px;
+  background-color: rgba(51, 48, 48, 0.404);
+}
+
+h6 {
+  letter-spacing: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(218, 218, 7);
+}
+
+/*==============================================================*/
+/*=============START OF MEDIA QUERIES / MIN-WIDTH 460PX=========*/
+
+@media screen and (min-width: 460px) {
+  #headline {
+    font-size: 12px;
+    letter-spacing: 12px;
+  }
+
+  #hero {
+    width: 180px;
+  }
+
+  #motto {
+    text-shadow: 3px 3px 3px rgb(56, 56, 1);
+    background-size: 250px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  hr {
+    max-width: 350px;
+  }
+
+  h1 {
+    font-size: 35px;
+    letter-spacing: 20px;
+  }
+
+  figcaption {
+    font-size: 14px;
+  }
+
+  #tribute-info {
+    font-size: 15px;
+  }
+
+  h6 {
+    letter-spacing: 3px;
+  }
+}
+
+/*==============================================================*/
+/*==============START OF MEDIA QUERIES / MIN-WIDTH 720PX========*/
+
+@media screen and (min-width: 720px) {
+  #headline {
+    font-size: 18px;
+    letter-spacing: 15px;
+  }
+
+  #hero {
+    width: 220px;
+    margin: 0 20px;
+    padding-right: 20px;
+  }
+
+  #motto {
+    width: 375px;
+    text-shadow: 3px 3px 3px rgb(56, 56, 1);
+    background-image: url(image6.jpg);
+    background-size: 380px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  hr {
+    max-width: 570px;
+  }
+
+  h1 {
+    font-size: 40px;
+    letter-spacing: 25px;
+  }
+
+  figcaption {
+    font-size: 16px;
+  }
+
+  #tribute-info {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 13px;
+    letter-spacing: 5px;
+  }
+}
+
+/*==============================================================*/
+/*==============START OF MEDIA QUERIES / MIN-WIDTH 1200PX========*/
+
+@media screen and (min-width: 1200px) {
+  #headline {
+    font-size: 20px;
+    letter-spacing: 20px;
+    word-spacing: 7px;
+    margin-top: 15px;
+  }
+
+  #hero {
+    width: 270px;
+    padding-right: 20px;
+    margin-right: 20px;
+  }
+
+  #motto {
+    width: 850px;
+    text-shadow: 3px 3px 3px rgb(56, 56, 1);
+    background-image: url(image6.jpg);
+    background-size: 350px;
+    background-position: right;
+    font-size: 25px;
+    line-height: 45px;
+  }
+
+  hr {
+    max-width: 1000px;
+  }
+
+  h1 {
+    font-size: 45px;
+    letter-spacing: 30px;
+  }
+
+  figcaption {
+    font-size: 18px;
+  }
+
+  #tribute-info {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 15px;
+    letter-spacing: 5px;
+  }
+}
+
+/*============END OF MEDIA QUERIES / MIN-WIDTH 1200PX============*/
+/*===============================================================*/
+/*===============================================================*/
